@@ -8,5 +8,10 @@ setup(
     license='',
     author='Charles DeLong',
     author_email='',
-    description=''
+    description='',
+    install_requires=[
+        'wheel',
+        'jupyter',
+        'numpy'
+    ]
 )
